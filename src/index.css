@@ -1,0 +1,279 @@
+:root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.to-do-list button {
+  font-size: 1.7rem;
+  font-weight:  bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:  background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover{
+  background-color: hsl(125, 47%, 54%);
+}
+
+.delete-button{
+  background-color: hsl(0, 91%, 54%);
+}
+
+.delete-button:hover{
+  background-color: hsl(0, 91%, 54%);
+}
+
+.move-button{
+  background-color: hsl(235, 77%, 71%);
+}
+
+.move-button:hover{
+  background-color: hsl(235, 77%, 71%);
+}
+
+.to-do-list input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%)
+}
+
+.to-do-list ol {
+  padding: 0;
+}
+
+.to-do-list li {
+  font-size: 2rem;
+  font-weight:  bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  margin-left: 0;
+  align-items: center;
+  color: black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delete-button, .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.color-display {
+  width: 300px;
+  height: 300x;
+  display: flex;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+
+
+
+.count-container {
+  text-align: center;
+}
+
+.count-container p{
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.count-container button{
+  width: 10em;
+  padding:10px;
+  font-size: 1.1em;
+  margin: 0 5px;
+}
+
+.list-category {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(108, 67%, 66%);
+}
+
+.list-items li {
+  font-size: 1em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color:hsl(0, 0%, 80%);
+  cursor: pointer;
+}
+
+
+.student {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 93%, 35%);
+}
+
+.student p {
+  margin: 0;
+}
+
+.login-successful{
+  background-color: rgb(47, 218, 81);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-failed{
+  background-color: rgb(180, 52, 84);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  border: 2px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  background-color: whitesmoke;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%)
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%)
+}
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
